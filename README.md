@@ -6,7 +6,7 @@
 
 1. Clona este repositorio:
    ```bash
-   git clone <url_del_repositorio>
+   git clone https://github.com/SebasCrucer/clipvid
    cd ClipVid
    ```
 
