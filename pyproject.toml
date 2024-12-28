@@ -1,13 +1,27 @@
 [tool.poetry]
 name = "clipvid"
 version = "0.1.0"
-description = ""
+description = "Proyecto que indexa videos usando CLIP y permite búsquedas en los embeddings generados."
+
 authors = ["Sebas <diego.cruz.cervantes@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 
+numpy = "*"
+torch = "*"
+opencv-python = "*"
+tqdm = "*"
+Pillow = "*"
+patchify = "*"
+h5py = "*"
+matplotlib = "*"
+requests = "*"
+loguru = "*"
+
+clip = { git = "https://github.com/openai/CLIP.git" }
+scikit-image = "^0.25.0"
 
 [build-system]
 requires = ["poetry-core"]
